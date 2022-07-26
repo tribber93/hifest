@@ -5,46 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web Desaign Hifest</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="/node_modules/fullpage.js/dist/fullpage.css">
+    <!-- <link rel="stylesheet" href="/node_modules/fullpage.js/dist/fullpage.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
   </head>
   <body>
-    <nav class="fixed-top navbar navbar-expand-lg bg-light">
-        <div class="container-fluid flex">
-          <a class="navbar-brand" href="#home">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul id="myNav" class="navbar-nav">
-              <li data-menuanchor="home" class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li data-menuanchor="profile" class="nav-item">
-                <a class="nav-link" href="#profile">Profile</a>
-              </li>
-              <li data-menuanchor="about" class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li data-menuanchor="contact" class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
+    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <img height="60" src="assets/images/logo.png">
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul id="myNav" class="nav">
+                <li data-menuanchor="home"><a href="#home" class="active">Home</a></li>
+                <li data-menuanchor="profile"><a href="#profile">Galeri</a></li>
+                <li data-menuanchor="proker"><a href="#proker">Program Kerja</a></li>
+                <li data-menuanchor="about"><a href="#about">About</a></li>
+                <li></li>
+              </ul>        
+              <a class='menu-trigger'>
+                  <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
           </div>
         </div>
-      </nav>
+      </div>
+    </header>
 
-    <div id="fullpage" data-spy="scroll" class="text-center">
-        <div class="section active bg-primary">
-          <h1>Home Section</h1>
+    <div id="fullpage" data-spy="scroll">
+        <div class="section active">
+          <div class="main-banner" id="top">
+            <div class=" hero container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div class="item header-text">
+                          <h6>Selamat Datang Di Web HIMASI</h6>
+                          <h2>Temukan <em>Jati dirimu</em> dengan <span>Bergabung</span>?</h2>
+                          <p>This is a professional looking HTML Bootstrap 5 website template brought to you by TemplateMo website.</p>
+                          <div class="down-buttons">
+                            <div class="main-blue-button-hover">
+                              <a href="#about">Message Us Now</a>
+                            </div>
+                            <div class="call-button">
+                              <a href="#"><i class="fa fa-phone"></i> 010-020-0340</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="section bg-danger">
-          <h1>Profile Section</h1>
+        <div class="section main-banner text-center">
+          <div class="slide mt-5">
+            <h1 class="">Galeri Himasi</h1>
+            <div class="container px-4">
+              <div class="row gx-5">
+                <div class="col">
+                 <img height="450" src="/assets/images/Gambar 1.jpg" alt="">
+                </div>
+                <div class="col">
+                  <img height="450" src="/assets/images/Gambar 2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <h1>Slide 2</h1>
+          </div><div class="slide">
+            <h1>Slide 3</h1>
+          </div>
         </div>
         <div class="section bg-info">
           <div class="slide">
-            <h1>Slide 1</h1>
+            <div class="card-custom">
+              <img src="" alt="">
+            </div>
+            </div>
           </div>
           <div class="slide">
             <h1>Slide 2</h1>
@@ -53,18 +105,23 @@
           </div>
         </div>
         <div class="section bg-warning">
-          <h1>Contact Section</h1>
+          <h1>about Section</h1>
         </div>
         <div class="section bg-info fp-auto-height h-25">
           <h1>Footer</h1>
         </div>
     </div>
 
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.js"></script>
-    
-    
     <script>
       $(document).ready(function() {
         $('#fullpage').fullpage({
@@ -72,7 +129,7 @@
           autoScrolling:true,
           scrollHorizontally: true,
           credits: { enabled: false,},
-          anchors: ['home', 'profile', 'about', 'contact','footer'],
+          anchors: ['home', 'profile', 'proker', 'about','footer'],
           menu: '#myNav',
           slidesNavigation:true,
           controlArrowsHTML: [
@@ -85,7 +142,7 @@
         $.fn.fullpage.setAllowScrolling(true);
       });
     </script>
-    <script src="/node_modules/fullpage.js/dist/fullpage.js"></script>
+    
 
   </body>
 </html>
