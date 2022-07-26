@@ -382,10 +382,17 @@ header
   right: 0px;
   z-index: 100;
   height: 100px;
+<<<<<<< HEAD
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+=======
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
 }
 
 .header-area .main-nav {
@@ -438,7 +445,11 @@ header
   padding-left: 40px;
 }
 
+<<<<<<< HEAD
 .header-area .main-nav .nav li:last-child a,
+=======
+.header-area .main-nav .nav li:last-child a ,
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
 .background-header .main-nav .nav li:last-child a {
   color: #fff !important;
   padding: 0px 20px;
@@ -477,12 +488,20 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
+<<<<<<< HEAD
   color: #ff685f !important;
+=======
+  color: #ff685f!important;
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
+<<<<<<< HEAD
   color: #ff685f !important;
+=======
+  color: #ff685f!important;
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
   opacity: 1;
 }
 
@@ -515,8 +534,12 @@ header
   transform: translateY(+2em);
   visibility: hidden;
   z-index: -1;
+<<<<<<< HEAD
   transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
     z-index 0s linear 0.01s;
+=======
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
 }
 
 .header-area .main-nav .nav li.submenu ul li {
@@ -529,7 +552,11 @@ header
   opacity: 1;
   display: block;
   background: #f7f7f7;
+<<<<<<< HEAD
   color: #2a2a2a !important;
+=======
+  color: #2a2a2a!important;
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
   padding-left: 20px;
   height: 40px;
   line-height: 40px;
@@ -545,7 +572,11 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
+<<<<<<< HEAD
   color: #ff685f !important;
+=======
+  color: #ff685f!important;
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
   padding-left: 25px;
 }
 
@@ -699,7 +730,11 @@ header
 }
 
 @media (max-width: 992px) {
+<<<<<<< HEAD
   .header-area .main-nav .nav li:last-child,
+=======
+  .header-area .main-nav .nav li:last-child  ,
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
   .background-header .main-nav .nav li:last-child {
     display: none;
   }
@@ -718,7 +753,11 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
+<<<<<<< HEAD
     color: #ff685f !important;
+=======
+    color: #ff685f!important;
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -779,7 +818,11 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
+<<<<<<< HEAD
     color: #ff685f !important;
+=======
+    color: #ff685f!important;
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -804,13 +847,21 @@ header
     height: auto !important;
   }
   .header-area .main-nav .nav li.submenu:after {
+<<<<<<< HEAD
     color: #3b566e;
+=======
+    color: #3B566E;
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
     right: 25px;
     font-size: 14px;
     top: 15px;
   }
+<<<<<<< HEAD
   .header-area .main-nav .nav li.submenu:hover ul,
   .header-area .main-nav .nav li.submenu:focus ul {
+=======
+  .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
+>>>>>>> 9af8badc2fa18b98e3d1a3d796e5d764e8755041
     height: 0px;
   }
 }
